@@ -138,6 +138,21 @@ input {
   width: 100%;
 }
 
+/* Materials */
+
+.matGrid {
+  width: 80%;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px;
+  margin: auto;
+  margin-top: 20px;
+}
+
+.matGrid .category input {
+  width: 100%;
+}
+
 /* Footer */
 footer p {
   font-weight: 200;
